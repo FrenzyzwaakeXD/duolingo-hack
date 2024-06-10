@@ -3,11 +3,11 @@ name: Do a Duolingo lesson
 on:
   workflow_dispatch:
     inputs:
-      lessons:
+      lessons: '50'
         default: 1
         description: '50'
         required: false
-        type: number
+        type: 50
 
 jobs:
   study:
